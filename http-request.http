@@ -1,0 +1,23 @@
+###
+GET http://localhost:8080/byName/Jane%20Dow
+
+
+
+###
+POST http://localhost:8080/add
+Content-Type: application/json
+
+{
+  "employeeFullname": "John Snow",
+  "employeeDesignation": "bastard",
+  "employeeSalary": 100
+}
+
+
+
+###
+GET http://localhost:8080/all
+
+
+
+###
